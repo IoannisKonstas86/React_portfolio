@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: $Sans;
+  width: 100%;
+  color: $dark;
+}
+
+.i {
+  display: flex;
+}
+
+.i-left {
+  flex: 1;
+}
+.i-right {
+  flex: 1;
+}
